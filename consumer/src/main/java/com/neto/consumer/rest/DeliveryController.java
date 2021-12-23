@@ -1,6 +1,5 @@
 package com.neto.consumer.rest;
 
-import com.fasterxml.jackson.databind.JsonNode;
 import com.neto.consumer.config.RequestQueueConfig;
 import com.neto.consumer.model.Delivery;
 import com.neto.consumer.model.Request;
