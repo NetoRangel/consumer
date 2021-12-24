@@ -44,4 +44,5 @@ public class RequestQueueConfig {
         template.setMessageConverter(messageConverter());
         return template;
     }
+
 }

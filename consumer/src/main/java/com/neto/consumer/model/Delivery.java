@@ -10,7 +10,7 @@ public class Delivery {
     private Long idRequest;
     private String deliveryAddress;
 
-    public Delivery(){};
+    public Delivery(){}
 
     public Delivery(Long idRequest, String deliveryAddress) {
         this.idRequest = idRequest;
@@ -64,4 +64,5 @@ public class Delivery {
                 ", deliveryAddress='" + deliveryAddress + '\'' +
                 '}';
     }
+
 }

@@ -12,7 +12,8 @@ public class NotFoundAdvice {
     @ResponseBody
     @ExceptionHandler(DeliveryNotFoundException.class)
     @ResponseStatus(HttpStatus.NOT_FOUND)
-    String requestNotFoundHandler(DeliveryNotFoundException ex) {
+    String DeliveryNotFoundHandler(DeliveryNotFoundException ex) {
         return ex.getMessage();
     }
+
 }
